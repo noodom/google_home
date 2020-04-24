@@ -9,6 +9,8 @@ Dans cet exemple, j'utilise la fonction Parle! par l'intermédiaire du plugin Go
 
 ### Scénario
 
+![](doc/images/Scenario.jpg) 
+
 - On commence par poser une question, avec par exemple pour réponses possibles oui / non
 - La question est posée par l'intermédaire de la commande **Parle!** d'un équipement Google Home (déclaré dans le **plugin Google Cast**)
 - Cette réponse sera stockée dans la variable **reponseTest**
@@ -29,43 +31,39 @@ Dans cet exemple, j'utilise la fonction Parle! par l'intermédiaire du plugin Go
     - Construction de l'applet IFTTT traitant de la réponse
         - Suivre les différentes étapes suivantes depuis la page d'accueil de ifttt.com (après avoir créé son compte)
 
-![](ledScroller/V4/doc/images/Explore.jpg) 
+![](doc/images/Explore.jpg) 
 
-![](ledScroller/V4/doc/images/Create.jpg) 
+![](doc/images/Create.jpg) 
 
-![](ledScroller/V4/doc/images/IfThisThenThat.jpg) 
+![](doc/images/IfThisThenThat.jpg) 
 
-Sélectionner This
+Sélectionner **+This**
 
-![](ledScroller/V4/doc/images/Service.jpg) 
+![](doc/images/Service.jpg) 
 
 
-![](ledScroller/V4/doc/images/Trigger.jpg) 
+![](doc/images/Trigger.jpg) 
 
-![](ledScroller/V4/doc/images/GoogleAssistant.jpg) 
+![](doc/images/GoogleAssistant.jpg) 
 
-Remplir et sélectionner "Create trigger"
+Remplir les champs et sélectionner "Create trigger"
 
-![](ledScroller/V4/doc/images/IfThisThenThat.jpg) 
+![](doc/images/IfThisThenThat.jpg) 
 
-Sélectionner That
+Sélectionner **That**
 
-![](ledScroller/V4/doc/images/WebHook.jpg) 
+![](doc/images/WebHook.jpg) 
 
-![](ledScroller/V4/doc/images/Action.jpg) 
+![](doc/images/Action.jpg) 
 
-![](ledScroller/V4/doc/images/WebRequest.jpg) 
+![](doc/images/WebRequest.jpg) 
 
-![](ledScroller/V4/doc/images/ledScroller.jpg) 
+Remplir les champs
 
-![](ledScroller/V4/doc/images/ledScroller.jpg) 
-
-Remplir
-
-![](ledScroller/V4/doc/images/createAction.jpg) 
+![](doc/images/createAction.jpg) 
 
 Sélectionner "Finish" ; L'applet de réponse est créée !
 
-        - Il suffit maintenant d'exécuter le scénario et de répondre "OK Google Réponse oui", "OK Google réponse non"
+        - Il suffit maintenant d'exécuter le scénario et de répondre **OK Google Réponse oui**, **OK Google réponse non**
 
 >Note : Il est possible de répondre directement "OK Google oui" et "OK Google non" : il faut pour cela créer 2 applets et choisir le menu **Say a simple phrase** (au lieu de **Say a phrase with a text ingredient**)
