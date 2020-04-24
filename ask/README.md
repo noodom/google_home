@@ -46,7 +46,7 @@ Sélectionner **+This**
 
 ![](doc/images/GoogleAssistant.jpg) 
 
-Remplir les champs et sélectionner "Create trigger"
+Remplir les champs et sélectionner **Create trigger**
 
 ![](doc/images/IfThisThenThat.jpg) 
 
@@ -58,13 +58,13 @@ Sélectionner **That**
 
 ![](doc/images/WebRequest.jpg) 
 
-Remplir les champs
+Remplir les champs en remplaçant **monJeedom** par l'url de son Jeedom et **monApiKey** par sa clé API
 
 ![](doc/images/createAction.jpg) 
 
 Sélectionner **Finish** : L'applet de réponse est créée !
 
-        - Il suffit maintenant d'exécuter le scénario et de répondre **OK Google Réponse oui**, **OK Google réponse non**
+        - Il suffit maintenant d'exécuter le scénario et de répondre **OK Google réponse oui**, **OK Google réponse non**
 
 ![](doc/images/ReponseDiscord.jpg) 
 
