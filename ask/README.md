@@ -62,8 +62,10 @@ Remplir les champs
 
 ![](doc/images/createAction.jpg) 
 
-Sélectionner "Finish" ; L'applet de réponse est créée !
+Sélectionner **Finish** : L'applet de réponse est créée !
 
         - Il suffit maintenant d'exécuter le scénario et de répondre **OK Google Réponse oui**, **OK Google réponse non**
+
+![](doc/images/ReponseDiscord.jpg) 
 
 >Note : Il est possible de répondre directement "OK Google oui" et "OK Google non" : il faut pour cela créer 2 applets et choisir le menu **Say a simple phrase** (au lieu de **Say a phrase with a text ingredient**)
