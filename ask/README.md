@@ -37,7 +37,7 @@ Dans cet exemple, j'utilise la fonction Parle! par l'intermédiaire du plugin Go
 
 ![](doc/images/IfThisThenThat.jpg) 
 
-Sélectionner **+This**
+- Sélectionner **+This**
 
 ![](doc/images/Service.jpg) 
 
@@ -62,7 +62,7 @@ Remplir les champs en remplaçant **monJeedom** par l'url de son Jeedom et **mon
 
 ![](doc/images/createAction.jpg) 
 
-Sélectionner **Finish** : L'applet de réponse est créée !
+- Sélectionner **Finish** : L'applet de réponse est créée !
 
         - Il suffit maintenant d'exécuter le scénario et de répondre **OK Google réponse oui**, **OK Google réponse non**
 
