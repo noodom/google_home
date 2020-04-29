@@ -13,20 +13,6 @@ Utilisation de Google Home pour Jeedom et Nextdom
 
 Dans cet exemple, j'utilise la fonction **Parle!** par l'intermédiaire du plugin **Google Cast**.
 
-### Scénario
-
-![](doc/images/Scenario.jpg) 
-
-- On commence par poser une question, avec par exemple pour réponses possibles oui / non
-- La question est posée par l'intermédaire de la commande **Parle!** d'un équipement Google Home (déclaré dans le **plugin Google Cast**)
-- Cette réponse sera stockée dans la variable **reponseTest**
-
-- La réponse est alors testée et traitée par des IF/ALORS/SINON classiques :
-    - Réponse oui : IF strtolower(variable(reponseTest)) == "oui"
-        - Envoi d'une notification à Discord
-    - Réponse non : IF strtolower(variable(reponseTest)) == "non"
-        - ...
-
 ### Traitement de l'envoi du message différé par IFTTT (ifttt.com)
 
 - Lorsqu'on parle à Google Home en commençant par le mot-clé "Envoie", l'applet IFTTT est déclenchée
