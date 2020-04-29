@@ -4,7 +4,7 @@ Utilisation de Google Home pour Jeedom et Nextdom
 
 ## Envoyer un message par Google Home et le répéter par Google Home en différé
 
-- On dit à Google Home d'envoyer un message avec le mot-clé "Envoie" en début de message :
+- On dit à Google Home d'envoyer un message avec le mot-clé "**Envoie**" en début de message :
     **"Envoie On fait un resto ce soir".**
 
 - Google Home répond **"message enregistré"**
@@ -19,7 +19,7 @@ Dans cet exemple, j'utilise la fonction **Parle!** par l'intermédiaire du plugi
 
 - L'applet prend en compte le message à envoyer en différé (**caractère $**)
 
-- IFTTT appelle alors le scénario pour enregistrer le message avec le tag msg qui contient le message
+- IFTTT appelle alors le scénario pour enregistrer le message avec le tag **msg** qui contient le message
 
     - Construction de l'applet IFTTT traitant de la réponse
         - Suivre les différentes étapes suivantes depuis la page d'accueil de ifttt.com (après avoir créé son compte)
@@ -64,7 +64,7 @@ Remplir les champs en remplaçant **monJeedom** par l'url de son Jeedom, **monAp
 
 ![](doc/images/ScenarioEnregistrementMessage.jpg)
 
-   - Il reste ensuite à créer un scénario qui sera exécuté par un déclenchement de son choix (arrivée d'une personne, heure définie, ..)
+   - Il reste ensuite à créer un deuxème scénario qui sera exécuté par un déclenchement de son choix (arrivée d'une personne, heure définie, ..)
 
 ![](doc/images/ScenarioLectureMessage.jpg)
 
@@ -72,3 +72,4 @@ Remplir les champs en remplaçant **monJeedom** par l'url de son Jeedom, **monAp
 >- Attention à bien reprendre l'id du scénario d'enregistrement du message différé dans l'applet IFTTT
 >- la variable **messagePresent** permet de faire l'annonce du message différé seulement si un message a été envoyé
 >- Ce tutorial peut être amélioré en gérant plusieurs messages. Actuellement, seul le dernier message sera annoncé (les précédents seront écrasés)
+>- Il peut aussi être utilisé comme rappel en arrivant chez soi le soir (événement déclencheur du 2ème scénario : arrivée à son domicile)
