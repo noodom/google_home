@@ -38,47 +38,47 @@ Dans cet exemple, j'utilise la fonction **Parle!** par l'intermédiaire du plugi
     - Construction de l'applet IFTTT traitant de la réponse
         - Suivre les différentes étapes suivantes depuis la page d'accueil de ifttt.com (après avoir créé son compte)
 
-![](../doc/images/Explore.jpg) 
+![](../ask/doc/images/Explore.jpg) 
 
-![](../doc/images/Create.jpg) 
+![](../ask/doc/images/Create.jpg) 
 
-![](../doc/images/IfThisThenThat.jpg) 
+![](../ask/doc/images/IfThisThenThat.jpg) 
 
 - Sélectionner **+This**
 
-![](../doc/images/Service.jpg) 
+![](../ask/doc/images/Service.jpg) 
 
 
-![](../doc/images/Trigger.jpg) 
+![](../ask/doc/images/Trigger.jpg) 
 
 ![](doc/images/GoogleAssistant.jpg) 
 
 Remplir les champs et sélectionner **Create trigger**
 
-![](../doc/images/IfThisThenThat.jpg) 
+![](../ask/doc/images/IfThisThenThat.jpg) 
 
 Sélectionner **That**
 
-![](../doc/images/WebHook.jpg) 
+![](../ask/doc/images/WebHook.jpg) 
 
-![](../doc/images/Action.jpg) 
+![](../ask/doc/images/Action.jpg) 
 
 ![](doc/images/WebRequest.jpg) 
 
 Remplir les champs en remplaçant **monJeedom** par l'url de son Jeedom, **monApiKey** par sa clé API,
     et **123** par l'identifiant du scénario pour enregistrer le message différé (capture ci-dessous)
 
-![](../doc/images/createAction.jpg) 
+![](../ask/doc/images/createAction.jpg) 
 
-- Sélectionner **Finish** : L'applet de réponse est créée !
+- Sélectionner **Finish** : L'applet de réception du message est créée !
 
-- Cette réponse sera envoyée par IFTTT :
+- Ce message est ensuite envoyé à Jeedom :
 
-    - Le scénario d'enregistrement du message différé (id=123 dans l'exemple) est alors déclenché
+   - Le scénario d'enregistrement du message différé (id=123 dans l'exemple) est alors déclenché
 
 ![](doc/images/ScenarioEnregistrementMessage.jpg)
 
-    - Il reste ensuite à créer un scénario qui sera exécuté par un déclenchement de son choix (arrivée d'une personne, heure définie, ..)
+   - Il reste ensuite à créer un scénario qui sera exécuté par un déclenchement de son choix (arrivée d'une personne, heure définie, ..)
 
 ![](doc/images/ScenarioLectureMessage.jpg)
 
